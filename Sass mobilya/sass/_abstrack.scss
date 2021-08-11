@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+/** font-family: 'Open Sans', sans-serif;**/
+
+$font-family:'Open Sans',
+sans-serif;
+$primary-color:#0e4a4e;
+$secundary-color:#14151A;
+$date-color:#FFB320;
+$comment-color:#08AABD;
+$gray-color:#9f9f9f;
+$light-color:#FEFEFE;
+.ml {
+    &-2 {
+        margin-left: 2rem;
+    }
+}
+
+.text-center {
+    text-align: center;
+}
+
+@mixin flex-display($display,
+$align-items,
+$justify-content) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

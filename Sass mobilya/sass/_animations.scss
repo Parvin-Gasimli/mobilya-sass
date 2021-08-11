@@ -1,0 +1,16 @@
+@keyframes Main {
+    0% {
+        opacity: 0;
+        transform: translateY(15rem);
+        border-top: 0 px solid $primary-color;
+    }
+    50% {
+        transform: translateY(-15rem);
+        border-top: 1 px solid $light-color;
+    }
+    100% {
+        opacity: 1;
+        border-top: 2 px solid $primary-color;
+        transform: translateY(0rem);
+    }
+}
